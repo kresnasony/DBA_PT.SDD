@@ -35,7 +35,6 @@ CREATE TABLE PENJUALAN (
     id_penjualan INT PRIMARY KEY IDENTITY(1,1),
     id_barang INT,
     id_pembeli INT,
-    id_toko INT,
     jumlah_beli INT NOT NULL,
     tanggal_beli DATETIME NOT NULL,
     lokasi_toko INT,
